@@ -15,8 +15,8 @@
 		C13FA53211FDB9B7151664B2A97A6762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CC5FAB9F57F045D5160930A90CCD9BFD /* CustomButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20BBE22BAE6B730A66BFB01D7B0A184 /* CustomButton-dummy.m */; };
 		EC048678EE3F4C9241F0653431B7956A /* Pods-CustomButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA939A9556215D17B4B1098193681473 /* Pods-CustomButton_Example-dummy.m */; };
+		EC7E3C03283CF4140082BD0C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E3C02283CF4140082BD0C /* CustomButton.swift */; };
 		FA898AA641C0A608BA8F1D3A1BC6614B /* Pods-CustomButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28975AFBA37B2FE4987789F2F2C2AA7A /* Pods-CustomButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC3D43F465883C80B45051482AE1D81A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F01E7B52A0F0001D03B9D60CFD2832 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		276411C08E47EA990AF1EDC55B7EADED /* CustomButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomButton-umbrella.h"; sourceTree = "<group>"; };
 		27FF3A67BF44234F0651DEB7CF5C3DD3 /* Pods-CustomButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28975AFBA37B2FE4987789F2F2C2AA7A /* Pods-CustomButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		328C769019072C4DD6547CA9617484D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		328C769019072C4DD6547CA9617484D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		35763BE4DCA5D43617521535E06B7263 /* Pods-CustomButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		36CBAEB5B5513D798DF2010E9FC9C094 /* CustomButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomButton.debug.xcconfig; sourceTree = "<group>"; };
 		468424DE984FE53197CECD41B5316965 /* Pods-CustomButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomButton_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -49,17 +49,16 @@
 		4AA97366B515E6EEB8702854C47E5B00 /* Pods-CustomButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomButton_Tests.modulemap"; sourceTree = "<group>"; };
 		4B3016CA502BEC115BDFAAD12BC347F1 /* CustomButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomButton.modulemap; sourceTree = "<group>"; };
 		504561CDC21E80F521900015354B53E7 /* Pods-CustomButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomButton_Example-Info.plist"; sourceTree = "<group>"; };
-		521A35E411CE70EFC02EA4E07278A53D /* CustomButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomButton; path = CustomButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DFE8FF6B95E001A01868EBDE77314C2 /* CustomButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		521A35E411CE70EFC02EA4E07278A53D /* CustomButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFE8FF6B95E001A01868EBDE77314C2 /* CustomButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F9EC25D85B3032759C0D22FA06B752F /* Pods-CustomButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		61F01E7B52A0F0001D03B9D60CFD2832 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CustomButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6BB4B0BDC78E66C6AE067CD9DF237FBC /* Pods-CustomButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C23EA1F7398D9D3C8C86FD856B9B196 /* Pods-CustomButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EF981525703062AD8771296130396D2 /* Pods-CustomButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		91DE2CB9827D8F2BC5F379F19411AF9A /* Pods-CustomButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CustomButton_Tests"; path = Pods_CustomButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DE2CB9827D8F2BC5F379F19411AF9A /* Pods_CustomButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		997097B57FFE28AD5C741663893A0DFD /* CustomButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomButton.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9A51706B38837B297E9038EEC54A9D /* Pods-CustomButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomButton_Example.modulemap"; sourceTree = "<group>"; };
 		A20BBE22BAE6B730A66BFB01D7B0A184 /* CustomButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomButton-dummy.m"; sourceTree = "<group>"; };
 		B0A1FF91B44D03B6459061B26235710C /* Pods-CustomButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,8 +66,9 @@
 		B9A802FBA4459A3B1E6716F52155EF74 /* Pods-CustomButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA939A9556215D17B4B1098193681473 /* Pods-CustomButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomButton_Example-dummy.m"; sourceTree = "<group>"; };
 		C334797758AC6D93387FEEED4AA3F9EE /* Pods-CustomButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EFDA9AE76A12191FB6C8DB44F8F4FBED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F9099EA1F811B1131F1F0B783C2C1E55 /* Pods-CustomButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CustomButton_Example"; path = Pods_CustomButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7E3C02283CF4140082BD0C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EFDA9AE76A12191FB6C8DB44F8F4FBED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F9099EA1F811B1131F1F0B783C2C1E55 /* Pods_CustomButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB443B2FB281B34A0466E541B1845C5 /* Pods-CustomButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,9 +103,9 @@
 		483FF0C58D931BE89FBF538454485581 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				521A35E411CE70EFC02EA4E07278A53D /* CustomButton */,
-				F9099EA1F811B1131F1F0B783C2C1E55 /* Pods-CustomButton_Example */,
-				91DE2CB9827D8F2BC5F379F19411AF9A /* Pods-CustomButton_Tests */,
+				521A35E411CE70EFC02EA4E07278A53D /* CustomButton.framework */,
+				F9099EA1F811B1131F1F0B783C2C1E55 /* Pods_CustomButton_Example.framework */,
+				91DE2CB9827D8F2BC5F379F19411AF9A /* Pods_CustomButton_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,7 +173,6 @@
 		A4F4BD2AEA6CE2A18AA253C090C1501D /* CustomButton */ = {
 			isa = PBXGroup;
 			children = (
-				61F01E7B52A0F0001D03B9D60CFD2832 /* ReplaceMe.swift */,
 				84339D78417786DADB0F709F31E223CC /* Pod */,
 				D3A1972D6B320A6DED0217BFFFCEFBD3 /* Support Files */,
 			);
@@ -219,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				A4F4BD2AEA6CE2A18AA253C090C1501D /* CustomButton */,
+				EC7E3C02283CF4140082BD0C /* CustomButton.swift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			);
 			name = CustomButton;
 			productName = CustomButton;
-			productReference = 521A35E411CE70EFC02EA4E07278A53D /* CustomButton */;
+			productReference = 521A35E411CE70EFC02EA4E07278A53D /* CustomButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4192F94CA892B27780F6BCE2B1E6CD22 /* Pods-CustomButton_Example */ = {
@@ -287,7 +287,7 @@
 			);
 			name = "Pods-CustomButton_Example";
 			productName = Pods_CustomButton_Example;
-			productReference = F9099EA1F811B1131F1F0B783C2C1E55 /* Pods-CustomButton_Example */;
+			productReference = F9099EA1F811B1131F1F0B783C2C1E55 /* Pods_CustomButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77848271EED3D54B2011F5F6AD995B85 /* Pods-CustomButton_Tests */ = {
@@ -306,7 +306,7 @@
 			);
 			name = "Pods-CustomButton_Tests";
 			productName = Pods_CustomButton_Tests;
-			productReference = 91DE2CB9827D8F2BC5F379F19411AF9A /* Pods-CustomButton_Tests */;
+			productReference = 91DE2CB9827D8F2BC5F379F19411AF9A /* Pods_CustomButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0E6EE94AA0E421149CA2E5EA38CA5340 = {
+						LastSwiftMigration = 1330;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -368,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC5FAB9F57F045D5160930A90CCD9BFD /* CustomButton-dummy.m in Sources */,
-				FC3D43F465883C80B45051482AE1D81A /* ReplaceMe.swift in Sources */,
+				EC7E3C03283CF4140082BD0C /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +426,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CustomButton_Example/Pods-CustomButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CustomButton_Example/Pods-CustomButton_Example.modulemap";
@@ -492,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -509,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36CBAEB5B5513D798DF2010E9FC9C094 /* CustomButton.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -520,7 +526,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CustomButton/CustomButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CustomButton/CustomButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CustomButton/CustomButton.modulemap";
 				PRODUCT_MODULE_NAME = CustomButton;
@@ -528,6 +534,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -550,7 +557,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CustomButton_Tests/Pods-CustomButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CustomButton_Tests/Pods-CustomButton_Tests.modulemap";
@@ -582,7 +589,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CustomButton_Tests/Pods-CustomButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CustomButton_Tests/Pods-CustomButton_Tests.modulemap";
@@ -650,13 +657,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -666,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 997097B57FFE28AD5C741663893A0DFD /* CustomButton.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -677,7 +684,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CustomButton/CustomButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CustomButton/CustomButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CustomButton/CustomButton.modulemap";
 				PRODUCT_MODULE_NAME = CustomButton;
@@ -708,7 +715,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CustomButton_Example/Pods-CustomButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CustomButton_Example/Pods-CustomButton_Example.modulemap";
