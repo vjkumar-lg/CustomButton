@@ -1,0 +1,22 @@
+{
+  "name": "CustomButton",
+  "version": "0.1.0",
+  "summary": "A short description of CustomButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vijayakumar/CustomButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vijayakumar": "vijayakumar.lg@zohocorp.com"
+  },
+  "source": {
+    "git": "https://github.com/Vijayakumar/CustomButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CustomButton/Classes/**/*"
+}
